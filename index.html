@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atharva Sunil Gawas — Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f5f5f0;
+      color: #1a1a1a;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 820px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 56px 64px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.10), 0 4px 24px rgba(0,0,0,0.06);
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+
+    .name {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #1a1a1a;
+      line-height: 1.1;
+    }
+
+    .contact-bar {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 0;
+      font-size: 13px;
+      color: #444;
+    }
+
+    .contact-bar a {
+      color: #1a4b8c;
+      text-decoration: none;
+    }
+
+    .contact-bar a:hover { text-decoration: underline; }
+
+    .sep { margin: 0 10px; color: #bbb; }
+
+    /* ── Sections ── */
+    section { margin-bottom: 26px; }
+
+    .section-title {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #1a1a1a;
+      border-bottom: 1px solid #cccccc;
+      padding-bottom: 4px;
+      margin-bottom: 14px;
+    }
+
+    /* ── Summary ── */
+    .summary p {
+      color: #333;
+      font-size: 13.5px;
+      line-height: 1.65;
+    }
+
+    /* ── Skills ── */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+    }
+
+    .skills-table tr td { padding: 3px 0; vertical-align: top; }
+
+    .skills-table td:first-child {
+      width: 170px;
+      font-weight: 600;
+      color: #1a1a1a;
+      padding-right: 12px;
+      white-space: nowrap;
+    }
+
+    .skills-table td:last-child { color: #333; }
+
+    /* ── Projects ── */
+    .entry { margin-bottom: 18px; }
+    .entry:last-child { margin-bottom: 0; }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .entry-title { font-weight: 700; font-size: 14px; color: #1a1a1a; }
+    .entry-date { font-size: 12.5px; color: #666; font-style: italic; white-space: nowrap; }
+    .entry-sub { font-size: 13px; color: #555; margin-top: 1px; font-style: italic; }
+
+    .entry-body { margin-top: 6px; padding-left: 16px; }
+
+    .entry-body li {
+      list-style: disc;
+      font-size: 13.5px;
+      color: #333;
+      margin-bottom: 3px;
+      padding-left: 2px;
+    }
+
+    /* ── Education ── */
+    .edu-entry { margin-bottom: 14px; }
+    .edu-entry:last-child { margin-bottom: 0; }
+
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .edu-inst { font-weight: 700; font-size: 14px; color: #1a1a1a; }
+    .edu-location { font-size: 12.5px; color: #666; font-style: italic; }
+    .edu-degree { font-size: 13px; color: #444; margin-top: 2px; }
+    .edu-period { font-size: 12.5px; color: #666; font-style: italic; }
+
+    /* ── Certifications ── */
+    .cert-list { list-style: disc; padding-left: 16px; }
+    .cert-list li { font-size: 13.5px; color: #333; margin-bottom: 4px; }
+
+    /* ── Print ── */
+    @media print {
+      body { background: white; }
+      .page { box-shadow: none; margin: 0; padding: 36px 48px; }
+    }
+
+    @media (max-width: 640px) {
+      .page { padding: 32px 24px; margin: 0; }
+      .contact-bar { flex-direction: column; gap: 4px; }
+      .sep { display: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header>
+    <div class="name">Atharva Sunil Gawas</div>
+    <div class="contact-bar">
+      <span>9930027511</span>
+      <span class="sep">|</span>
+      <a href="mailto:atharva.gawas@outlook.com">atharva.gawas@outlook.com</a>
+      <span class="sep">|</span>
+      <a href="https://linkedin.com/in/atharvagawas" target="_blank">linkedin.com/in/atharvagawas</a>
+      <span class="sep">|</span>
+      <a href="https://github.com/atharvagawas" target="_blank">github.com/atharvagawas</a>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <section class="summary">
+    <div class="section-title">Summary</div>
+    <p>
+      AI/ML engineer with hands-on experience in deep learning, computer vision, and natural language processing.
+      Proficient in Python, TensorFlow, PyTorch, and OpenCV. Strong foundation in building and deploying end-to-end
+      machine learning pipelines. Seeking a challenging role to develop impactful AI solutions.
+    </p>
+  </section>
+
+  <!-- TECHNICAL SKILLS -->
+  <section>
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td>Languages</td>
+        <td>Python, C++</td>
+      </tr>
+      <tr>
+        <td>DL Frameworks</td>
+        <td>TensorFlow, PyTorch, Keras, Caffe</td>
+      </tr>
+      <tr>
+        <td>Libraries &amp; Tools</td>
+        <td>NumPy, Pandas, Scikit-learn, OpenCV, NLTK, Git, Docker</td>
+      </tr>
+      <tr>
+        <td>Deployment</td>
+        <td>Streamlit, Flask, ngrok</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="section-title">Projects</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">SafeDrive DMS — Driver Monitoring System</span>
+        <span class="entry-date">2024 – Present</span>
+      </div>
+      <div class="entry-sub">Computer Vision · Python, YOLOv8, Streamlit, Flask</div>
+      <ul class="entry-body">
+        <li>Trained a YOLOv8s model to detect 9 driver behaviour classes including drowsiness, phone usage, and seatbelt violations.</li>
+        <li>Built a complete application suite with a Streamlit dashboard and Flask backend; integrated live phone camera streaming via IP Webcam.</li>
+        <li>Deployed end-to-end inference pipeline using ngrok for remote access.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Plant Disease Detection</span>
+        <span class="entry-date">Sep 2024 – Mar 2025</span>
+      </div>
+      <div class="entry-sub">Deep Learning · Python, TensorFlow, Streamlit</div>
+      <ul class="entry-body">
+        <li>Developed a leaf disease classification system using CNN and VGG16 on the PlantVillage dataset.</li>
+        <li>Achieved 98.69% classification accuracy; deployed as an interactive Streamlit web application.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Movie Recommender System</span>
+        <span class="entry-date">Jun 2025 – Jul 2025</span>
+      </div>
+      <div class="entry-sub">Natural Language Processing · Python, Streamlit</div>
+      <ul class="entry-body">
+        <li>Built a content-based recommendation engine using TF-IDF vectorization on movie metadata.</li>
+        <li>Deployed as a Streamlit web application with an intuitive user interface.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <div class="section-title">Education</div>
+
+    <div class="edu-entry">
+      <div class="edu-header">
+        <span class="edu-inst">VIT Bhopal University</span>
+        <span class="edu-location">Bhopal, India</span>
+      </div>
+      <div class="edu-header" style="margin-top:2px;">
+        <span class="edu-degree">B.Tech in Computer Science — Artificial Intelligence &amp; Machine Learning</span>
+        <span class="edu-period">Sep 2023 – Jun 2027</span>
+      </div>
+    </div>
+
+    <div class="edu-entry">
+      <div class="edu-header">
+        <span class="edu-inst">Sri Chaitanya Educational Institute</span>
+        <span class="edu-location">Pune, India</span>
+      </div>
+      <div class="edu-header" style="margin-top:2px;">
+        <span class="edu-degree">Higher Secondary Certificate — Science Stream (PCM)</span>
+        <span class="edu-period">Jun 2021 – Jun 2023</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <div class="section-title">Certifications</div>
+    <ul class="cert-list">
+      <li>Cisco Certified Network Associate (CCNA) — Networking</li>
+      <li>NPTEL — Cloud Computing</li>
+      <li>Red Bull — Off-Premise Sales Job Simulation</li>
+    </ul>
+  </section>
+
+</div>
+</body>
+</html>
